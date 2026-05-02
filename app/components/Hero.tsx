@@ -4,7 +4,7 @@ import { lottery, donation} from "../data";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col h-[80%] items-center justify-center text-center px-6 py-20  from-slate-900 to-slate-800 text-white">
+    <section className="flex flex-col h-[80%] items-center justify-center text-center px-6 py-20 bg-gradient-to-b from-slate-900 to-slate-800 text-white">
 
         <Image src={lottery} alt="Lottery Winner" width={400} height={300}/>
 
